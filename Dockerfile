@@ -2,7 +2,7 @@
 # database: admin
 # username: admin
 # password: admin
-FROM mongo:2.6
+FROM mongo:3.2
 
 # designate a new data directory (the original one is volumized, no data is persisted)
 ENV MONGO_DBPATH /data/test-db
